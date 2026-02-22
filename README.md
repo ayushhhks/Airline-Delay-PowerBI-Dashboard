@@ -42,13 +42,14 @@ USE airline_project;
 ```
 4. Created the table airline_delay_cause with appropriate data types.
 5. Used LOAD DATA INFILE to import the CSV file:
-LOAD DATA INFILE 
+```LOAD DATA INFILE 
 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Airline_Delay_Cause.csv'
 INTO TABLE airline_delay_cause
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
+```
 6. Cleaned empty values using NULLIF and TRIM functions during import
 
 # 📊 How I Connected MySQL to Power BI
