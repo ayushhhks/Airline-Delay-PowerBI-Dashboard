@@ -1,6 +1,11 @@
 # ✈️ Airline Delay Power BI Dashboard
 
-An interactive Power BI dashboard analyzing airline delay trends, delay causes, and carrier performance using MySQL and DAX.
+An interactive minimalistic Power BI dashboard analyzing airline delay trends, delay causes, and carrier performance using MySQL and DAX.
+
+## 📊 Dashboard Preview
+
+![Dashboard Preview](dashboard-preview/dashboard1.png)
+
 
 ## 📊 Features
 - Total Flights, Delayed Flights, Delay %
